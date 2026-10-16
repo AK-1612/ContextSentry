@@ -1,0 +1,16 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Telemetry DB & Test Artifacts
+data/
+*.db
+.pytest_cache/
+
+# Test generated files
+large_test.py
+app_logic.py
+boundary_350.py
+boundary_351.py
+generated_tool.py
